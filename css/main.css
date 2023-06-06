@@ -163,6 +163,66 @@ img {
 .body_cv .container_body .left_side .contact .box .info p a:hover {
   text-decoration: underline;
 }
+.body_cv .container_body .left_side .contact .box_percent {
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.body_cv .container_body .left_side .contact .box_percent .info {
+  font-size: 16px;
+  font-weight: normal;
+  color: #ababab;
+  margin-left: 0;
+}
+.body_cv .container_body .left_side .contact .box_percent .info i {
+  padding-right: 5px;
+  display: inline-block;
+  color: #03a9f4;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+@media (max-width: 400px) {
+  .body_cv .container_body .left_side .contact .box_percent .info i {
+    text-align: center;
+    display: block;
+  }
+}
+.body_cv .container_body .left_side .contact .box_percent .info h3 {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ababab;
+}
+@media (max-width: 400px) {
+  .body_cv .container_body .left_side .contact .box_percent .info h3 {
+    display: none;
+  }
+}
+.body_cv .container_body .left_side .contact .box_percent .info li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.body_cv .container_body .left_side .contact .box_percent .info li .text {
+  color: #fff;
+  font-weight: 300;
+}
+.body_cv .container_body .left_side .contact .box_percent .info li .percent {
+  margin-top: 5px;
+  position: relative;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.body_cv .container_body .left_side .contact .box_percent .info li .percent span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #03a9f4;
+  border-radius: 6px;
+}
 .body_cv .container_body .right_side .articles {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -227,37 +287,37 @@ img {
   transform: scale(1.05);
 }
 .body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(1) .article__image {
-  background-image: url(../images/app-todoList.png);
-}
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(2) .article__image {
-  background-image: url(../images/app-ShoppingCart.png);
-}
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(3) .article__image {
-  background-image: url(../images/app-slider.png);
-}
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(4) .article__image {
   background-image: url(../images/pro-01.png);
 }
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(5) .article__image {
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(2) .article__image {
   background-image: url(../images/pro-02.png);
 }
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(6) .article__image {
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(3) .article__image {
   background-image: url(../images/pro-03.png);
 }
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(7) .article__image {
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(4) .article__image {
   background-image: url(../images/pro-04.jpg);
 }
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(8) .article__image {
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(5) .article__image {
   background-image: url(../images/pro-05.png);
 }
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(9) .article__image {
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(6) .article__image {
   background-image: url(../images/pro-06.png);
 }
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(10) .article__image {
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(7) .article__image {
   background-image: url(../images/pro-07.avif);
 }
-.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(11) .article__image {
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(8) .article__image {
   background-image: url(../images/pro-08.png);
+}
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(9) .article__image {
+  background-image: url(../images/app-todoList.png);
+}
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(10) .article__image {
+  background-image: url(../images/app-ShoppingCart.png);
+}
+.body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(11) .article__image {
+  background-image: url(../images/app-slider.png);
 }
 .body_cv .container_body .right_side .articles .article__grid .article__item:nth-child(12) .article__image {
   background-image: url(../images/game-TicTacToe.png);
